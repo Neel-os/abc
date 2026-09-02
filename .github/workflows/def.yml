@@ -1,8 +1,6 @@
 name: CI/CD - Deploy Website
 'on':
   push:
-    branches:
-      - main
 permissions:
   contents: read
   pages: write
